@@ -1,0 +1,83 @@
+body {
+  background: url("/images/orange_weave.jpg");
+  background-color: orangered;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: Times, "Times New Roman", serif;
+  font-size: 1.3em;
+}
+
+#header_container {
+  background: #800000;
+  border:1px solid black;
+  height:100px;
+  width: 100%;
+  position: fixed;
+  top:0;
+}
+
+
+#header_content {
+  margin:0 auto;
+}
+
+ul li {
+  text-align: right;
+  list-style: none;
+  display: inline;
+}
+
+  a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+  color: #f00;
+  list-style: none;
+}
+
+
+.wrapper {
+  background: rgba(255,255,255,0.70);
+  border: 1px solid black;
+  padding-top: 10px;
+  width: 85%;
+  margin: 115px auto auto auto;
+  box-shadow: 10px 10px 25px #404040;
+}
+
+#about_me {
+  margin-top: 0;
+  padding: 40px;
+
+}
+
+.selfie {
+  opacity: 1.0;
+  height: 300px;
+  border-radius: 10px;
+  margin: 0 25px 25px 15px;
+  box-shadow: 10px 10px 15px #404040;
+  float: left;
+  border: 3px solid black;
+}
+
+#tech_experience {
+  padding: 40px;
+  margin-top: 10px;
+  background-color: white;
+  border-top: 5px solid orangered;
+}
+
+
+.logo {
+  height: 76px;
+  margin: 10px 10px 10px 10px;
+}
+
+p {
+  margin: 0 15px 15px 15px;
+  display: inline;
+}
