@@ -2,8 +2,8 @@
 <html>
 
 <head>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
-  <link href='http://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="styles/main.css">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -14,9 +14,9 @@
   <header id="header_container">
     <div id="header_content">
       <ul>
-        <li><a href="#">About me</a></li>
-        <li><a href="#">Technical Experience</a></li>
-        <li><a href="#">Projects</a></li>
+        <li><a href="#about_me">About Me</a></li>
+        <li><a href="#tech_experience">Technical Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
       </ul>
     </div>
   </header>
@@ -24,22 +24,40 @@
     <div id="about_me">
       <h1>Shelley Davis-Wise, Software Developer</h1>
       <img class="selfie" src="images/avatarphoto.jpg" />
-      <p>Brought to Nashville by the professional audio industry, I moved here from Nebraska in 1996. Since then, I've come to love Nashville as a hometown and am settled here for the foreseeable future. I am married and the proud mother of a bright, witty and kind son.
-        <br>
-        <br> A passionate Maker of Things, when I'm not coding, I can usually be found making pottery in my home studio, crocheting, or cooking. Being both creative and pragmatic, I believe that excellence lies at the intersection of beauty and utility.
-        <br>
-        <br> I hope to make my contribution doing front-end web development and I have great interest in increasing my knowledge of AngularJS, CSS, compilers (<i>e.g. </i>Sass, Gulp), and SQL. I want to learn more about UI and how to create a positive experience for the site- or app-user. I look forward to finding a good fit on a development team where my talents can be of maximum benefit.
+      <p>Brought to Nashville by the professional audio industry, I moved here from Nebraska in 1996 and I've come to love Nashville as a hometown. I am married and the proud mother of a bright, witty and kind son.</p>
+      <p>A passionate Maker of Things, I can often be found making pottery in my home studio, crocheting, or cooking. Being both creative and pragmatic, I believe that excellence lies at the intersection of beauty and utility.</p>
+      <p> I hope to make my contribution doing front-end web development and I have great interest in increasing my knowledge of AngularJS, CSS, compilers (<i>e.g. </i>Sass, Gulp), and SQL. I want to learn more about UI and how to create a positive experience for the site- or app-user. I enjoy the process of planning a project and hope to use my communication skills to good benefit.
       </p>
     </div>
     <div id="tech_experience">
-      <h3>Technologies I Have Worked With:</h3>
-      <img class="logo" src="images/logos/AngularJS.png"><img class="logo" src="images/logos/Bootstrap.jpg"><img class="logo" src="images/logos/bower.png"><img class="logo" src="images/logos/CSS3.png"><img class="logo" src="images/logos/firebase.jpg"><img class="logo" src="images/logos/Github.png"><img class="logo" src="images/logos/Grunt.png"><img class="logo" src="images/logos/handlebars.png"><img class="logo" src="images/logos/HTML5.png"><img class="logo" src="images/logos/ionic.jpg"> <img class="logo" src="images/logos/JQuery.png"><img class="logo" src="images/logos/js.jpg"><img class="logo" src="images/logos/RequireJS.png"><img class="logo" src="images/logos/Sass.png"><img class="logo" src="images/logos/Trello.jpg">
+      <h2>Technologies I Have Worked With:</h2>
+      <div id="tech-logos">
+        <img class="logo" src="images/logos/AngularJS.png" /><img class="logo" src="images/logos/Bootstrap.jpg" /><img class="logo" src="images/logos/bower.png" /><img class="logo" src="images/logos/CSS3.png" /><img class="logo" src="images/logos/firebase.jpg" /><img class="logo" src="images/logos/Github.png" /><img class="logo" src="images/logos/Grunt.png" /><img class="logo" src="images/logos/handlebars.png" /><img class="logo" src="images/logos/HTML5.png" /><img class="logo" src="images/logos/ionic.jpg" /> <img class="logo" src="images/logos/JQuery.png" /><img class="logo" src="images/logos/js.jpg" /><img class="logo" src="images/logos/RequireJS.png" /><img class="logo" src="images/logos/Sass.png" /><img class="logo" src="images/logos/Trello.jpg" />
+      </div>
     </div>
-    <div>
-      <h2>Projects:</h2></div>
+    <div id="projects">
+      <h2>Projects:</h2>
+      <h3><a href = "https://allowancetrackapp.firebaseapp.com" style="color: #f00">iParent Allowance Tracking App</a></h3>
+      <div class="projects-text">
+        <p>I was inspired to do this project by my son. As a busy Mom, I had trouble keeping up with my child's allowance. I promised a dollar a day BUT time would pass and I wouldn't remember when I had paid him OR whether I had purchased something on his behalf with his promise to "pay me back". Plus, there were times when he needed to receive consequences because of his bad behavior and his main incentives are money and screen time. Hence the iParent Allowance Tracker application.</p>
+        <p>For my purposes, it had to be simple and portable. When my child's behavior needed to be recorded, I couldn't always go to my computer to log it. I can't rely on my memory to recall when my child has spent available funds.</p>
+        <p>In order to achieve these goals, I built the application on the Ionic Framework, a hybrid mobile application framework that uses the AngularJS platform and Bootstrap to create sleek mobile apps.
+        </p>
+      </div>
+      <div id="projectImages1">
+        <img class="c1projectpics" src="images/projectImages/menu.png" /><img class="c1projectpics" src="images/projectImages/addChild.png" /><img class="c1projectpics" src="images/projectImages/childDetail.png" />
+      </div>
+    </div>
   </div>
-  <footer> </footer>
+  <footer id="footer-container">
+    <div id="footer_content">
+      <ul>
+        <li><a href="mailto:shelleydaviswise@gmail.com?Subject=I%20Found%20Your%20Web%20Page" target="_top">Email Me</a></li>
+        <li><a href="https://github.com/Shelleydaviswise" target="_blank">Github</a></li>
+        <li><a href="https://www.linkedin.com/in/shelleydaviswise">LinkedIn</a></li>
+      </ul>
+    </div>
+  </footer>
 </body>
-<script data-main="./javascripts/main" src="bower_components/requirejs/require.js"></script>
 
 </html>

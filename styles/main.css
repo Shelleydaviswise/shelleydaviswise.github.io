@@ -8,50 +8,62 @@ body {
   padding: 0;
   height: 100%;
   width: 100%;
-  font-family: Times, "Times New Roman", serif;
-  font-size: 1.3em;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2em;
 }
+
+
+/*************
+ header/nav elements
+*************/
 
 #header_container {
   background: #800000;
-  border:1px solid black;
-  height:100px;
+  border: 1px solid black;
+  height: 100px;
   width: 100%;
   position: fixed;
-  top:0;
+  top: 0;
 }
-
 
 #header_content {
-  margin:0 auto;
+  font-style: italic;
+  margin: auto 40px auto auto;
+  text-align: center;
 }
 
-ul li {
-  text-align: right;
-  list-style: none;
+#header_content ul {
+  font-size: 1.40em;
+}
+
+#header_content li {
+  padding: 10px;
   display: inline;
 }
 
-  a:link, a:visited, a:hover, a:active {
+a:link,
+a:visited {
   text-decoration: none;
-  color: #f00;
+  color: lightgray;
   list-style: none;
 }
 
+a:hover,
+a:active {
+  color: white;
+  text-decoration: underline;
+}
 
 .wrapper {
-  background: rgba(255,255,255,0.70);
+  background: rgba(255, 255, 255, 0.75);
   border: 1px solid black;
-  padding-top: 10px;
   width: 85%;
-  margin: 115px auto auto auto;
+  margin: 125px auto 100px auto;
   box-shadow: 10px 10px 25px #404040;
 }
 
 #about_me {
-  margin-top: 0;
-  padding: 40px;
-
+  padding: 20px;
 }
 
 .selfie {
@@ -65,19 +77,67 @@ ul li {
 }
 
 #tech_experience {
-  padding: 40px;
-  margin-top: 10px;
+  padding: 20px;
   background-color: white;
   border-top: 5px solid orangered;
+  border-bottom: 5px solid orangered;
 }
 
+#tech-logos {
+  padding: 10px 50px 10px 50px;
+}
 
 .logo {
   height: 76px;
   margin: 10px 10px 10px 10px;
 }
 
+#projects {
+  padding: 20px;
+}
+
+.c1projectpics {
+  height: 350px;
+  padding: 25px 10px 25px 30px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-left: 30px;
+  font-style: italic;
+}
+
 p {
-  margin: 0 15px 15px 15px;
+  font-family: times, 'Times New Roman', serif;
+  text-indent: 25px;
+  margin-right: 40px;
+  text-align: justify;
+}
+
+.projects-text {
+  padding-left: 30px;
+}
+
+#footer-container {
+  background: #800000;
+  border: 1px solid black;
+  height: 75px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+#footer_content {
+  text-align: center;
+  font-style: italic;
+  font-size: 1em;
+}
+
+#footer_content li {
+  padding: 10px;
   display: inline;
 }
